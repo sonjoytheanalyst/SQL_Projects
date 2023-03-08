@@ -1,15 +1,15 @@
 
 -- CASE STATEMENT
---SELECT EmployeeID,FirstName,Age,
---CASE
---	WHEN Age Between 30 AND  45 THEN 'Middle Age'
---	WHEN Age Between 50 AND 70 THEN 'OLDER'
---	ELSE 'Young'
---END As Young
+SELECT EmployeeID,FirstName,Age,
+CASE
+	WHEN Age Between 30 AND  45 THEN 'Middle Age'
+	WHEN Age Between 50 AND 70 THEN 'OLDER'
+	ELSE 'Young'
+END As Young
 
---FROM sqlTutorial.dbo.EmployeeDemo
---WHERE Age is not Null
---ORDER BY Age 
+FROM sqlTutorial.dbo.EmployeeDemo
+WHERE Age is not Null
+ORDER BY Age 
 
 
 
